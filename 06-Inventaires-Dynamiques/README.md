@@ -72,7 +72,7 @@ plugin: kmpm.incus.incus
 Testons que le plugin est bien installé en exécutant :
 
 ```bash
-ansible-inventory -i incus.yml --list
+ansible-inventory -i incus.yml --graph
 ```
 
 Vou devriez voir une réponse incluant tous les conteneurs en cous d'exécution :
